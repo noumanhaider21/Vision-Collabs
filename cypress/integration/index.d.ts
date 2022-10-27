@@ -1,0 +1,62 @@
+declare namespace Cypress {
+    interface Chainable {
+        loginUi(email,password);
+        empDashboard();
+        empNoticeboard();
+        empStats();
+        empProjects();
+        empAttendance();
+        empDayplanner();
+        empFeedback();
+        empTemplates();
+        empAssignfeedback();
+        empFeedbackreview();
+        empGivefeedback();
+
+        orgProjects();
+        orgWorkload();
+        orgDayplanner();
+        orgVideocall();
+        orgTeamscheduler();
+        orgFiles();
+        orgHumanresource();
+        orgEmployees();
+        orgAssets();
+        orgAssetallocation();
+        orgDailyattendence();
+        orgAttendence();
+        orgLeaverequest();
+        orgUsers();
+        orgDepartments();
+        orgLatecoming();
+        orgTeams();
+        orgSuggestions();
+        orgHolidays();
+        orgEvents();
+        orgFilehr();
+        orgFilecategory();
+        orgFinance();
+        orgDashboardfinance();
+        orgBillablehours();
+        orgCreateinvoice();
+        orgInvoices();
+        orgIncome();
+        orgProvidentfund();
+        orgExpense();
+        orgSalaries();
+        orgLoans();
+        orgCashcategory();
+        orgSettings();
+        orgTrash();
+        orgUserrole();
+        orgManagemenus();
+        orgAssignrolebasedmenus();
+        orgOrganizations();
+        orgNewuser();
+        orgClients();
+        orgProjectsettings();
+
+
+        addProject();
+    }
+}
